@@ -1,0 +1,76 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UIKitWindowToast
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+@_exported import UIKitWindowToast
+import _Concurrency
+import _StringProcessing
+public struct ToastSizeLimits {
+  public var maxWidthConstant: [UIKit.UIUserInterfaceIdiom : CoreFoundation.CGFloat] {
+    mutating get
+    set
+  }
+  public var minWidthConstant: [UIKit.UIUserInterfaceIdiom : CoreFoundation.CGFloat] {
+    mutating get
+    set
+  }
+  public var maxHeightConstant: [UIKit.UIUserInterfaceIdiom : CoreFoundation.CGFloat] {
+    mutating get
+    set
+  }
+  public var minHeightConstant: [UIKit.UIUserInterfaceIdiom : CoreFoundation.CGFloat] {
+    mutating get
+    set
+  }
+}
+public struct ToastPosition {
+  public init(xAxisPosition: UIKitWindowToast.XAxisPosition, yAxisPosition: UIKitWindowToast.YAxisPosition)
+}
+public enum XAxisPosition {
+  case leading(constant: CoreFoundation.CGFloat? = nil), center(constant: CoreFoundation.CGFloat? = nil), trailing(constant: CoreFoundation.CGFloat? = nil)
+}
+public enum YAxisPosition {
+  case top(constant: CoreFoundation.CGFloat? = nil), center(constant: CoreFoundation.CGFloat? = nil), bottom(constant: CoreFoundation.CGFloat? = nil)
+  public static var notchIndent: CoreFoundation.CGFloat? {
+    get
+  }
+  public static var navigationBarIndent: CoreFoundation.CGFloat? {
+    get
+  }
+}
+open class ToastManager {
+  final public let playPosition: UIKitWindowToast.ToastPosition
+  public var prePosition: UIKitWindowToast.ToastPosition?
+  public var postPosition: UIKitWindowToast.ToastPosition?
+  public var autohideDuration: Swift.Double
+  public var appearingDuration: Swift.Double
+  public var disappearingDuration: Swift.Double
+  public var sizeLimits: UIKitWindowToast.ToastSizeLimits
+  public init(playPosition: UIKitWindowToast.ToastPosition, prePosition: UIKitWindowToast.ToastPosition? = nil, postPosition: UIKitWindowToast.ToastPosition? = nil)
+  @objc deinit
+}
+extension UIKit.UINavigationBar {
+  @_Concurrency.MainActor(unsafe) public var largeTitleHeight: CoreFoundation.CGFloat {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DefaultToastView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public let imageView: UIKit.UIImageView
+  @_Concurrency.MainActor(unsafe) public var messageLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) public var descriptionLabel: UIKit.UILabel?
+  @_Concurrency.MainActor(unsafe) final public let generalContainer: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) final public let labelStackView: UIKit.UIStackView
+  @_Concurrency.MainActor(unsafe) convenience public init(backgroundColor: UIKit.UIColor, message: UIKit.UILabel, description: UIKit.UILabel?, image: UIKit.UIImage?, edgeInsets: UIKit.NSDirectionalEdgeInsets = .init(top: 8, leading: 16, bottom: 8, trailing: 16))
+  @_Concurrency.MainActor(unsafe) convenience public init(backgroundColor: UIKit.UIColor, message: Swift.String, description: Swift.String?, image: UIKit.UIImage?, edgeInsets: UIKit.NSDirectionalEdgeInsets = .init(top: 8, leading: 16, bottom: 8, trailing: 16))
+  @_Concurrency.MainActor(unsafe) @objc convenience dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ToastPresenter {
+  public static let shared: UIKitWindowToast.ToastPresenter
+  public func enqueueToastForPresentation(toast: UIKit.UIView, toastManager: UIKitWindowToast.ToastManager)
+  @objc deinit
+}

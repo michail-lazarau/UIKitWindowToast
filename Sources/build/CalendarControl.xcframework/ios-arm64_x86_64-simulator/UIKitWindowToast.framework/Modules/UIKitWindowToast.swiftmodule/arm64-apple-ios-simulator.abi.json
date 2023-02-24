@@ -1,0 +1,3224 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastSizeLimits",
+        "printedName": "ToastSizeLimits",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxWidthConstant",
+            "printedName": "maxWidthConstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIUserInterfaceIdiom",
+                    "printedName": "UIKit.UIUserInterfaceIdiom",
+                    "usr": "c:@E@UIUserInterfaceIdiom"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvs",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvM",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16maxWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minWidthConstant",
+            "printedName": "minWidthConstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIUserInterfaceIdiom",
+                    "printedName": "UIKit.UIUserInterfaceIdiom",
+                    "usr": "c:@E@UIUserInterfaceIdiom"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvs",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvM",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV16minWidthConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxHeightConstant",
+            "printedName": "maxHeightConstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIUserInterfaceIdiom",
+                    "printedName": "UIKit.UIUserInterfaceIdiom",
+                    "usr": "c:@E@UIUserInterfaceIdiom"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvs",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvM",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17maxHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minHeightConstant",
+            "printedName": "minHeightConstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIUserInterfaceIdiom",
+                    "printedName": "UIKit.UIUserInterfaceIdiom",
+                    "usr": "c:@E@UIUserInterfaceIdiom"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Lazy",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIUserInterfaceIdiom : CoreGraphics.CGFloat]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIUserInterfaceIdiom",
+                        "printedName": "UIKit.UIUserInterfaceIdiom",
+                        "usr": "c:@E@UIUserInterfaceIdiom"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvs",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV14CoreFoundation7CGFloatVGvM",
+                "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV17minHeightConstantSDySo20UIUserInterfaceIdiomV12CoreGraphics7CGFloatVGvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UIKitWindowToast0C10SizeLimitsV",
+        "mangledName": "$s16UIKitWindowToast0C10SizeLimitsV",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastPosition",
+        "printedName": "ToastPosition",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(xAxisPosition:yAxisPosition:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastPosition",
+                "printedName": "UIKitWindowToast.ToastPosition",
+                "usr": "s:16UIKitWindowToast0C8PositionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "XAxisPosition",
+                "printedName": "UIKitWindowToast.XAxisPosition",
+                "usr": "s:16UIKitWindowToast13XAxisPositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YAxisPosition",
+                "printedName": "UIKitWindowToast.YAxisPosition",
+                "usr": "s:16UIKitWindowToast13YAxisPositionO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UIKitWindowToast0C8PositionV05xAxisD001yeD0AcA05XAxisD0O_AA05YAxisD0Otcfc",
+            "mangledName": "$s16UIKitWindowToast0C8PositionV05xAxisD001yeD0AcA05XAxisD0O_AA05YAxisD0Otcfc",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16UIKitWindowToast0C8PositionV",
+        "mangledName": "$s16UIKitWindowToast0C8PositionV",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "XAxisPosition",
+        "printedName": "XAxisPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "leading",
+            "printedName": "leading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.XAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.XAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13XAxisPositionO7leadingyAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13XAxisPositionO7leadingyAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.XAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.XAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13XAxisPositionO6centeryAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13XAxisPositionO6centeryAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          },
+          {
+            "kind": "Var",
+            "name": "trailing",
+            "printedName": "trailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.XAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.XAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.XAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "XAxisPosition",
+                        "printedName": "UIKitWindowToast.XAxisPosition",
+                        "usr": "s:16UIKitWindowToast13XAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13XAxisPositionO8trailingyAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13XAxisPositionO8trailingyAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16UIKitWindowToast13XAxisPositionO",
+        "mangledName": "$s16UIKitWindowToast13XAxisPositionO",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YAxisPosition",
+        "printedName": "YAxisPosition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.YAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.YAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13YAxisPositionO3topyAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13YAxisPositionO3topyAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.YAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.YAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13YAxisPositionO6centeryAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13YAxisPositionO6centeryAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKitWindowToast.YAxisPosition.Type) -> (CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreGraphics.CGFloat?) -> UIKitWindowToast.YAxisPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(constant: CoreGraphics.CGFloat?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "CoreGraphics.CGFloat?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGFloat",
+                                "printedName": "CoreGraphics.CGFloat",
+                                "usr": "s:14CoreFoundation7CGFloatV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UIKitWindowToast.YAxisPosition.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YAxisPosition",
+                        "printedName": "UIKitWindowToast.YAxisPosition",
+                        "usr": "s:16UIKitWindowToast13YAxisPositionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16UIKitWindowToast13YAxisPositionO6bottomyAC14CoreFoundation7CGFloatVSg_tcACmF",
+            "mangledName": "$s16UIKitWindowToast13YAxisPositionO6bottomyAC12CoreGraphics7CGFloatVSg_tcACmF",
+            "moduleName": "UIKitWindowToast"
+          },
+          {
+            "kind": "Var",
+            "name": "notchIndent",
+            "printedName": "notchIndent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast13YAxisPositionO11notchIndent14CoreFoundation7CGFloatVSgvpZ",
+            "mangledName": "$s16UIKitWindowToast13YAxisPositionO11notchIndent12CoreGraphics7CGFloatVSgvpZ",
+            "moduleName": "UIKitWindowToast",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast13YAxisPositionO11notchIndent14CoreFoundation7CGFloatVSgvgZ",
+                "mangledName": "$s16UIKitWindowToast13YAxisPositionO11notchIndent12CoreGraphics7CGFloatVSgvgZ",
+                "moduleName": "UIKitWindowToast",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigationBarIndent",
+            "printedName": "navigationBarIndent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast13YAxisPositionO19navigationBarIndent14CoreFoundation7CGFloatVSgvpZ",
+            "mangledName": "$s16UIKitWindowToast13YAxisPositionO19navigationBarIndent12CoreGraphics7CGFloatVSgvpZ",
+            "moduleName": "UIKitWindowToast",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreGraphics.CGFloat?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast13YAxisPositionO19navigationBarIndent14CoreFoundation7CGFloatVSgvgZ",
+                "mangledName": "$s16UIKitWindowToast13YAxisPositionO19navigationBarIndent12CoreGraphics7CGFloatVSgvgZ",
+                "moduleName": "UIKitWindowToast",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16UIKitWindowToast13YAxisPositionO",
+        "mangledName": "$s16UIKitWindowToast13YAxisPositionO",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastManager",
+        "printedName": "ToastManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "playPosition",
+            "printedName": "playPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastPosition",
+                "printedName": "UIKitWindowToast.ToastPosition",
+                "usr": "s:16UIKitWindowToast0C8PositionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC12playPositionAA0cF0Vvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC12playPositionAA0cF0Vvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPosition",
+                    "printedName": "UIKitWindowToast.ToastPosition",
+                    "usr": "s:16UIKitWindowToast0C8PositionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC12playPositionAA0cF0Vvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC12playPositionAA0cF0Vvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prePosition",
+            "printedName": "prePosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKitWindowToast.ToastPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPosition",
+                    "printedName": "UIKitWindowToast.ToastPosition",
+                    "usr": "s:16UIKitWindowToast0C8PositionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKitWindowToast.ToastPosition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastPosition",
+                        "printedName": "UIKitWindowToast.ToastPosition",
+                        "usr": "s:16UIKitWindowToast0C8PositionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKitWindowToast.ToastPosition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastPosition",
+                        "printedName": "UIKitWindowToast.ToastPosition",
+                        "usr": "s:16UIKitWindowToast0C8PositionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC11prePositionAA0cF0VSgvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postPosition",
+            "printedName": "postPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKitWindowToast.ToastPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPosition",
+                    "printedName": "UIKitWindowToast.ToastPosition",
+                    "usr": "s:16UIKitWindowToast0C8PositionV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKitWindowToast.ToastPosition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastPosition",
+                        "printedName": "UIKitWindowToast.ToastPosition",
+                        "usr": "s:16UIKitWindowToast0C8PositionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKitWindowToast.ToastPosition?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToastPosition",
+                        "printedName": "UIKitWindowToast.ToastPosition",
+                        "usr": "s:16UIKitWindowToast0C8PositionV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC12postPositionAA0cF0VSgvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autohideDuration",
+            "printedName": "autohideDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC16autohideDurationSdvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC16autohideDurationSdvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC16autohideDurationSdvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC16autohideDurationSdvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC16autohideDurationSdvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC16autohideDurationSdvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC16autohideDurationSdvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC16autohideDurationSdvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearingDuration",
+            "printedName": "appearingDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC17appearingDurationSdvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC17appearingDurationSdvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC17appearingDurationSdvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC17appearingDurationSdvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC17appearingDurationSdvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC17appearingDurationSdvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC17appearingDurationSdvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC17appearingDurationSdvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disappearingDuration",
+            "printedName": "disappearingDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC20disappearingDurationSdvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC20disappearingDurationSdvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC20disappearingDurationSdvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC20disappearingDurationSdvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC20disappearingDurationSdvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC20disappearingDurationSdvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC20disappearingDurationSdvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC20disappearingDurationSdvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sizeLimits",
+            "printedName": "sizeLimits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastSizeLimits",
+                "printedName": "UIKitWindowToast.ToastSizeLimits",
+                "usr": "s:16UIKitWindowToast0C10SizeLimitsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvp",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastSizeLimits",
+                    "printedName": "UIKitWindowToast.ToastSizeLimits",
+                    "usr": "s:16UIKitWindowToast0C10SizeLimitsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvg",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastSizeLimits",
+                    "printedName": "UIKitWindowToast.ToastSizeLimits",
+                    "usr": "s:16UIKitWindowToast0C10SizeLimitsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvs",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0Vvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0VvM",
+                "mangledName": "$s16UIKitWindowToast0C7ManagerC10sizeLimitsAA0c4SizeF0VvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(playPosition:prePosition:postPosition:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastManager",
+                "printedName": "UIKitWindowToast.ToastManager",
+                "usr": "s:16UIKitWindowToast0C7ManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastPosition",
+                "printedName": "UIKitWindowToast.ToastPosition",
+                "usr": "s:16UIKitWindowToast0C8PositionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKitWindowToast.ToastPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPosition",
+                    "printedName": "UIKitWindowToast.ToastPosition",
+                    "usr": "s:16UIKitWindowToast0C8PositionV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKitWindowToast.ToastPosition?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPosition",
+                    "printedName": "UIKitWindowToast.ToastPosition",
+                    "usr": "s:16UIKitWindowToast0C8PositionV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UIKitWindowToast0C7ManagerC12playPosition03preF004postF0AcA0cF0V_AHSgAItcfc",
+            "mangledName": "$s16UIKitWindowToast0C7ManagerC12playPosition03preF004postF0AcA0cF0V_AHSgAItcfc",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16UIKitWindowToast0C7ManagerC",
+        "mangledName": "$s16UIKitWindowToast0C7ManagerC",
+        "moduleName": "UIKitWindowToast",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultToastView",
+        "printedName": "DefaultToastView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "imageView",
+            "printedName": "imageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC05imageE0So07UIImageE0Cvp",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC05imageE0So07UIImageE0Cvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC05imageE0So07UIImageE0Cvg",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC05imageE0So07UIImageE0Cvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "messageLabel",
+            "printedName": "messageLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvp",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvg",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvs",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvM",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC12messageLabelSo7UILabelCvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "descriptionLabel",
+            "printedName": "descriptionLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvp",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvg",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvs",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvs",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvM",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16descriptionLabelSo7UILabelCSgvM",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generalContainer",
+            "printedName": "generalContainer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC16generalContainerSo07UIStackE0Cvp",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16generalContainerSo07UIStackE0Cvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC16generalContainerSo07UIStackE0Cvg",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC16generalContainerSo07UIStackE0Cvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "labelStackView",
+            "printedName": "labelStackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC010labelStackE0So07UIStackE0Cvp",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC010labelStackE0So07UIStackE0Cvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast07DefaultC4ViewC010labelStackE0So07UIStackE0Cvg",
+                "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC010labelStackE0So07UIStackE0Cvg",
+                "moduleName": "UIKitWindowToast",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(backgroundColor:message:description:image:edgeInsets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultToastView",
+                "printedName": "UIKitWindowToast.DefaultToastView",
+                "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDirectionalEdgeInsets",
+                "printedName": "UIKit.NSDirectionalEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@NSDirectionalEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC15backgroundColor7message11description5image10edgeInsetsACSo7UIColorC_So7UILabelCALSgSo7UIImageCSgSo017NSDirectionalEdgeL0Vtcfc",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC15backgroundColor7message11description5image10edgeInsetsACSo7UIColorC_So7UILabelCALSgSo7UIImageCSgSo017NSDirectionalEdgeL0Vtcfc",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(backgroundColor:message:description:image:edgeInsets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultToastView",
+                "printedName": "UIKitWindowToast.DefaultToastView",
+                "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDirectionalEdgeInsets",
+                "printedName": "UIKit.NSDirectionalEdgeInsets",
+                "hasDefaultArg": true,
+                "usr": "c:@S@NSDirectionalEdgeInsets"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16UIKitWindowToast07DefaultC4ViewC15backgroundColor7message11description5image10edgeInsetsACSo7UIColorC_S2SSgSo7UIImageCSgSo017NSDirectionalEdgeL0Vtcfc",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC15backgroundColor7message11description5image10edgeInsetsACSo7UIColorC_S2SSgSo7UIImageCSgSo017NSDirectionalEdgeL0Vtcfc",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultToastView",
+                "printedName": "UIKitWindowToast.DefaultToastView",
+                "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView(im)init",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewCACycfc",
+            "moduleName": "UIKitWindowToast",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView(im)layoutSubviews",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC14layoutSubviewsyyF",
+            "moduleName": "UIKitWindowToast",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultToastView",
+                "printedName": "UIKitWindowToast.DefaultToastView",
+                "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView(im)initWithFrame:",
+            "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "UIKitWindowToast",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UIKitWindowToast@objc(cs)DefaultToastView",
+        "mangledName": "$s16UIKitWindowToast07DefaultC4ViewC",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastPresenter",
+        "printedName": "ToastPresenter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastPresenter",
+                "printedName": "UIKitWindowToast.ToastPresenter",
+                "usr": "s:16UIKitWindowToast0C9PresenterC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16UIKitWindowToast0C9PresenterC6sharedACvpZ",
+            "mangledName": "$s16UIKitWindowToast0C9PresenterC6sharedACvpZ",
+            "moduleName": "UIKitWindowToast",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastPresenter",
+                    "printedName": "UIKitWindowToast.ToastPresenter",
+                    "usr": "s:16UIKitWindowToast0C9PresenterC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16UIKitWindowToast0C9PresenterC6sharedACvgZ",
+                "mangledName": "$s16UIKitWindowToast0C9PresenterC6sharedACvgZ",
+                "moduleName": "UIKitWindowToast",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enqueueToastForPresentation",
+            "printedName": "enqueueToastForPresentation(toast:toastManager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToastManager",
+                "printedName": "UIKitWindowToast.ToastManager",
+                "usr": "s:16UIKitWindowToast0C7ManagerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16UIKitWindowToast0C9PresenterC07enqueueC15ForPresentation5toast0H7ManagerySo6UIViewC_AA0cI0CtF",
+            "mangledName": "$s16UIKitWindowToast0C9PresenterC07enqueueC15ForPresentation5toast0H7ManagerySo6UIViewC_AA0cI0CtF",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16UIKitWindowToast0C9PresenterC",
+        "mangledName": "$s16UIKitWindowToast0C9PresenterC",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UIKitWindowToast",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UINavigationBar",
+        "printedName": "UINavigationBar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "largeTitleHeight",
+            "printedName": "largeTitleHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So15UINavigationBarC16UIKitWindowToastE16largeTitleHeight14CoreFoundation7CGFloatVvp",
+            "mangledName": "$sSo15UINavigationBarC16UIKitWindowToastE16largeTitleHeight12CoreGraphics7CGFloatVvp",
+            "moduleName": "UIKitWindowToast",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So15UINavigationBarC16UIKitWindowToastE16largeTitleHeight14CoreFoundation7CGFloatVvg",
+                "mangledName": "$sSo15UINavigationBarC16UIKitWindowToastE16largeTitleHeight12CoreGraphics7CGFloatVvg",
+                "moduleName": "UIKitWindowToast",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UINavigationBar",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UINavigationBar",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "Array",
+      "offset": 314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "Dictionary",
+      "offset": 534,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "Dictionary",
+      "offset": 816,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 854,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "Dictionary",
+      "offset": 1050,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1112,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1160,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "Dictionary",
+      "offset": 1307,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastSizeLimits.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1395,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 384,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 437,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastSettings\/ToastManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 494,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 466,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 991,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1244,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1249,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1261,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1266,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1277,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1282,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1294,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1341,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1508,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1771,
+      "length": 3,
+      "value": "157"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1777,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1789,
+      "length": 3,
+      "value": "157"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1795,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1806,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1812,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1824,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1875,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2180,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2238,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2669,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2681,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2693,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2706,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3052,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3064,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3076,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3089,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/DefaultToastView.swift",
+      "kind": "StringLiteral",
+      "offset": 124,
+      "length": 16,
+      "value": "\"UIKitWindowToast.DefaultToastView\""
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 11,
+      "value": "\"UIKitWindowToast.ToastWindow\""
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastWindow.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 11,
+      "value": "\"UIKitWindowToast.ToastWindow\""
+    },
+    {
+      "filePath": "\/Users\/mikhail-lazarau\/GitRepos\/iOS demos\/UIKitWindowToast\/UIKitWindowToast\/ToastPresentingController.swift",
+      "kind": "StringLiteral",
+      "offset": 123,
+      "length": 25,
+      "value": "\"UIKitWindowToast.ToastPresentingController\""
+    }
+  ]
+}

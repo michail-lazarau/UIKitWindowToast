@@ -1,0 +1,11 @@
+framework module UIKitWindowToast {
+  umbrella header "UIKitWindowToast.h"
+
+  export *
+  module * { export * }
+}
+
+module UIKitWindowToast.Swift {
+  header "UIKitWindowToast-Swift.h"
+  requires objc
+}
