@@ -1,6 +1,6 @@
 # UIKitWindowToast
 
-A description of this package.
+This can be utilized by using SPM.
 
 This Swift Package give an opportunity to add a ToastView on the window of the app. The ToastView is added to the queue, retrieved and displayed immediately if it's 1st in the stack.
 
